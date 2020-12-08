@@ -3,7 +3,7 @@ import time, os
 keyboard = Controller()
 
 browser = "google-chrome"
-link = "gsy-rsek-zhj"
+link = "rjb-rsek-zhj"
 
 os.system("gnome-terminal -e '"+browser+" http://meet.google.com/"+link+"'")
 
