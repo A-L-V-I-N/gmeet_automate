@@ -6,7 +6,7 @@ import webbrowser
 keyboard = Controller()
 
 link = "ttd-hnxt-iyi"         #set the link here
-meet_time = ("12:26:00")   #set the time here
+meet_time = ("12:26:00")      #set the time here
 
 def presstabkey(num, tym, keys):
 	
@@ -20,7 +20,7 @@ def presstabkey(num, tym, keys):
 
 while True:
 	now = datetime.now()
-	if now.strftime("%H:%M:%S")  == meet_time:
+	if now.strftime("%H:%M:%S") == meet_time:
 	    webbrowser.open("http://meet.google.com/"+link)
 	    presstabkey(8, 8, Key.tab)
 	    break
