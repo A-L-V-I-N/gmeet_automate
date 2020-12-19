@@ -3,9 +3,9 @@ from pynput.keyboard import Key, Controller
 import time, os
 keyboard = Controller()
 
-browser = "google-chrome"
-link = "jcx-sgnp-dra"
-current_time = ("12:14:30")
+browser = "google-chrome"     # replace it with your browser
+link = "jcx-sgnp-dra"        # set your link here
+meet_time = ("12:14:30")   # set your time here
 
 def presstabkey(num, tym, keys):
 	
@@ -19,7 +19,7 @@ def presstabkey(num, tym, keys):
 
 while True:
 	now = datetime.now()
-	if now.strftime("%H:%M:%S")  == current_time:
+	if now.strftime("%H:%M:%S")  == meet_time:
 	    os.system("gnome-terminal -e '"+browser+" http://meet.google.com/"+link+"'")
 	    presstabkey(8, 20, Key.tab)
 	    break
