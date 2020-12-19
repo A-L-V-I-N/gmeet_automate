@@ -22,5 +22,5 @@ while True:
 	now = datetime.now()
 	if now.strftime("%H:%M:%S") == meet_time:
 	    webbrowser.open("http://meet.google.com/"+link)
-	    presstabkey(8, 8, Key.tab)
+	    presstabkey(8, 10, Key.tab)
 	    break
