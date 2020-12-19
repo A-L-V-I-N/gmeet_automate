@@ -23,5 +23,5 @@
     3.pip3 install pynput
     4.git clone https://github.com/A-L-V-I-N/gmeet_automate
     5.cd gmeet_automate
-    6.python3 gmeet_automate.py
+    6.python3 gmeet_automate_linx.py
     7.Done!
